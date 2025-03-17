@@ -1,0 +1,25 @@
+:root {
+    --main-bg-color: white;
+    --main-text-color: black;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.dark-theme {
+    --main-bg-color: black;
+    --main-text-color: white;
+}
+
+button {
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: aquamarine;
+}

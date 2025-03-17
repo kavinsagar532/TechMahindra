@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+}

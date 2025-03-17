@@ -1,0 +1,43 @@
+a {
+    font-size: 20px;
+    padding: 15px; 
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+
+input {
+    margin-left: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+    background-color: #f0f8ff;
+}
+
+button {
+    font-size: 15px;
+    margin-left: 30px;
+    padding: 7px;
+}
+
+.divider {
+    font-size: 30px;
+}
+
+label {
+    margin-left: 20px;
+    font-size: 20px;
+}
